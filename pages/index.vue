@@ -1,16 +1,23 @@
-<script setup>
-import About from "/components/About.vue"
-</script>
-
-
-<!-- maybe refer to about.vue? -->
-
 <template>
   <article class="about active" data-page="about">
-    <About />
-  </article>
-</template>
+  <header>
+      <h2 class="h2 article-title">About Me</h2>
+  </header>
 
-<style>
-@import 'assets\css\style.css';
-</style>
+  <section class="about-text">
+      <p>
+      I'm Creative Director and UI/UX Designer from Sydney, Australia, working in web development and print media.
+      I enjoy
+      turning complex problems into simple, beautiful and intuitive designs.
+      </p>
+
+      <p>
+      My job is to build your website so that it is functional and user-friendly but at the same time attractive.
+      Moreover, I
+      add personal touch to your product and make sure that is eye-catching and easy to use. My aim is to bring
+      across your
+      message and identity in the most creative way. I created web design for many famous brand companies.
+      </p>
+  </section>
+</article>
+</template>

@@ -1,4 +1,5 @@
 <template>
+    <article class="about active" data-page="about">
     <header>
         <h2 class="h2 article-title">About Me</h2>
     </header>
@@ -18,4 +19,5 @@
         message and identity in the most creative way. I created web design for many famous brand companies.
         </p>
     </section>
+</article>
 </template>

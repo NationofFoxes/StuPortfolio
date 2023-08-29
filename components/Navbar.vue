@@ -7,32 +7,32 @@
     <ul class="navbar-list">
 
       <li class="navbar-item">
-        <NuxtLink to="/" class="navbar-link">
-          <button class="navbar-link  active" data-nav-link="about">About</button>
+        <NuxtLink to="index" class="navbar-link">
+          About
         </NuxtLink>
       </li>
 
       <li class="navbar-item">
-        <NuxtLink to="/" class="navbar-link" >
-          <button class="navbar-link  active" data-nav-link="/resume.vue" >Resume</button>
+        <NuxtLink to="resume" class="navbar-link">
+          Resume
         </NuxtLink>
       </li>
 
       <li class="navbar-item">
-        <NuxtLink to="/" class="navbar-link">
-          <button class="navbar-link active" data-nav-link="/portfolio">Portfolio</button>
+        <NuxtLink to="portfolio" class="navbar-link">
+          Portfolio
         </NuxtLink>
       </li>
 
       <li class="navbar-item">
-        <NuxtLink to="/" class="navbar-link">
-          <button class="navbar-link  active" data-nav-link>Blog</button>
+        <NuxtLink to="blog/blog" class="navbar-link">
+          Blog
         </NuxtLink>
       </li>
 
       <li class="navbar-item">
-        <NuxtLink to="/" class="navbar-link">
-          <button class="navbar-link  active" data-nav-link>Contact</button>
+        <NuxtLink to="contact" class="navbar-link">
+          Contact
         </NuxtLink>
       </li>
     </ul>
