@@ -12,7 +12,7 @@ function toggleMenu() {
 <div class="sidebar-info">
 
   <figure class="avatar-box">
-    <img src="/assets/images/pfp.jpg" alt="Stuart William Auld" width="80">
+    <img src="/assets/images/pfp.jpg" alt="Stuart William Auld" width="80" loading="lazy">
   </figure>
 
   <div class="info-content">

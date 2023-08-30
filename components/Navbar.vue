@@ -7,7 +7,7 @@
     <ul class="navbar-list">
 
       <li class="navbar-item">
-        <NuxtLink to="index" class="navbar-link">
+        <NuxtLink to="about" class="navbar-link">
           About
         </NuxtLink>
       </li>
@@ -25,7 +25,7 @@
       </li>
 
       <li class="navbar-item">
-        <NuxtLink to="blog/blog" class="navbar-link">
+        <NuxtLink to="blog" class="navbar-link">
           Blog
         </NuxtLink>
       </li>

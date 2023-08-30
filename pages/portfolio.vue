@@ -1,5 +1,5 @@
 <template>
-    <article class="portfolio" data-page="portfolio">
+    <article class="portfolio active" data-page="portfolio">
 
 <header>
   <h2 class="h2 article-title">Portfolio</h2>

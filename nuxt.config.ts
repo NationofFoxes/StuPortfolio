@@ -27,8 +27,8 @@ const config: NuxtConfig = {
         {
           name: 'blog',
           path: '/blog',
-          component: resolve(__dirname, 'pages/blog/blog.vue'),
-          chunkName: 'pages/blog/blog',
+          component: resolve(__dirname, 'pages/blog.vue'),
+          chunkName: 'pages/blog',
         },
         {
           name: 'contact',

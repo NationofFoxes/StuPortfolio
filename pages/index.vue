@@ -1,5 +1,5 @@
 <template>
-  <article class="about active" data-page="about">
+  <article class="about active" data-page="index">
   <header>
       <h2 class="h2 article-title">About Me</h2>
   </header>

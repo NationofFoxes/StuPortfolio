@@ -1,5 +1,5 @@
 <template>
-    <article class="blog" data-page="blog">
+    <article class="blog active" data-page="blog">
 
 <header>
   <h2 class="h2 article-title">Blog</h2>

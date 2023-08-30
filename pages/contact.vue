@@ -1,5 +1,5 @@
 <template>
-    <article class="contact" data-page="contact">
+    <article class="contact active" data-page="contact">
 
 <header>
   <h2 class="h2 article-title">Contact</h2>
