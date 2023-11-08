@@ -1,4 +1,3 @@
-
-export default {
-  target: 'static',
-}
+export default defineNuxtConfig({
+  devtools: { enabled: true },
+})

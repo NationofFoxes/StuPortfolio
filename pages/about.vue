@@ -33,7 +33,7 @@
         </p>
 
         <div class="image-container">
-            <img src="~/assets/images/Sunny.jpg" alt="Me and Sunny" class="profile-image">
+            <img src="@/assets/images/Sunny.jpg" alt="Me and Sunny" class="profile-image">
         </div>
 
         
