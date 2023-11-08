@@ -1,0 +1,5 @@
+- Add links to github repos from portfolio page
+
+- work out configurations so internal links and images work
+
+- fix contact chevron button (or remove)
