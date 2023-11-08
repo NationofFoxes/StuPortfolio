@@ -25,12 +25,6 @@
       </li>
 
       <li class="navbar-item">
-        <NuxtLink to="blog" class="navbar-link">
-          Blog
-        </NuxtLink>
-      </li>
-
-      <li class="navbar-item">
         <NuxtLink to="contact" class="navbar-link">
           Contact
         </NuxtLink>

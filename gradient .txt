@@ -1,0 +1,40 @@
+   /* gradient */
+
+  --bg-gradient-onyx -->  --background-gradient-light
+
+  --bg-gradient-jet -->  --background-gradient-dark
+
+  --bg-gradient-yellow-1 --> --background-gradient-accent-1
+
+  --bg-gradient-yellow-2 -->  --background-gradient-accent-2
+
+  --border-gradient-onyx -->  --border-gradient-dark
+
+  --text-gradient-yellow -->  --text-gradient-accent
+
+
+  /* solid */
+
+  --jet: hsl(0, 0%, 22%); -->  --primary-bg
+
+  --onyx: hsl(240, 1%, 17%); -->  --secondary-bg
+
+  --eerie-black-1: hsl(240, 2%, 13%); -->  --body-text
+
+  --eerie-black-2: hsl(240, 2%, 12%); -->  --subtle-bg
+
+  --smoky-black: hsl(0, 0%, 7%); -->  --highlight-bg
+
+  --white-1: hsl(0, 0%, 100%); -->
+
+  --white-2: hsl(0, 0%, 98%); -->
+
+  --orange-yellow-crayola: hsl(45, 100%, 72%); -->  --accent-color-1
+
+  --vegas-gold: hsl(45, 54%, 58%); -->  --accent-color-2
+
+  --light-gray: hsl(0, 0%, 84%); -->
+
+  --light-gray-70: hsla(0, 0%, 84%, 0.7); -->
+
+  --bittersweet-shimmer: hsl(0, 43%, 51%); -->  --accent-shimmer

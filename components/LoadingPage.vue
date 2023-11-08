@@ -1,7 +1,7 @@
 <template>
   <div class="h-screen w-full flex items-center justify-center">
     <div class="animate">
-      <img src="assets/images/Sunny.jpg" alt="Picture of me and my dog">
+      <img src="~/assets/images/Sunny.jpg" alt="Picture of me and my dog">
     </div>
   </div>
 </template>

@@ -11,14 +11,18 @@ function toggleMenu() {
 
 <div class="sidebar-info">
 
-  <figure class="avatar-box">
-    <img src="/assets/images/pfp.jpg" alt="Stuart William Auld" width="80" loading="lazy">
-  </figure>
+
+  
+  <img class="avatar-image" src="~/assets/images/pfp_beach.jpg" alt="Stuart William Auld">
+  
+
 
   <div class="info-content">
     <h1 class="name" title="Stuart William Auld">Stuart William Auld</h1>
 
-    <p class="title">Junior Programmer</p>
+    <p class="title">Software Development</p>
+    <p class="title">Tech Promotion</p>
+    <p class="title">International Sales</p>
   </div>
 
   <button class="info_more-btn" data-sidebar-btn>
@@ -44,7 +48,7 @@ function toggleMenu() {
       <div class="contact-info">
         <p class="contact-title">Email</p>
 
-        <a href="mailto:stuart.william.auld@gmail.com" class="contact-link">stuart.william.auld@gmail.com.com</a>
+        <a href="mailto:stuart.william.auld@gmail.com" class="contact-link">stuart.william.auld@gmail.com</a>
       </div>
 
     </li>
@@ -58,7 +62,7 @@ function toggleMenu() {
       <div class="contact-info">
         <p class="contact-title">Birthday</p>
 
-        <time datetime="1982-06-23">Sept 30, 1992</time>
+        <time datetime="1982-06-23">Sept 27, 1992</time>
       </div>
 
     </li>

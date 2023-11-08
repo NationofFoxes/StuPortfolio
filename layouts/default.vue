@@ -12,7 +12,7 @@ useHead({
     ],
   link: [
     {
-      rel: 'icon', type: 'image/jpg', href: 'assets/images/Sunny.jpg',
+      rel: 'icon', type: 'image/jpg', href: '~/assets/images/Sunny.jpg',
     },
     {
       rel: 'preconnect',
