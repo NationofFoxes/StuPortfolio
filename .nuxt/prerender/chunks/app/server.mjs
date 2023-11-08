@@ -1,28 +1,28 @@
-import { hasInjectionContext, getCurrentInstance, useSSRContext, createApp, reactive, provide, onErrorCaptured, onServerPrefetch, unref, createVNode, resolveDynamicComponent, inject, toRef, shallowRef, shallowReactive, isReadonly, defineAsyncComponent, isRef, isShallow, isReactive, toRaw, ref, withCtx, mergeProps, nextTick, defineComponent, computed, h, Suspense, Transition } from 'file://C:/Users/stuar/Programming/StuPortfolio/StuPortfolio/node_modules/vue/index.mjs';
-import { $fetch } from 'file://C:/Users/stuar/Programming/StuPortfolio/StuPortfolio/node_modules/ofetch/dist/node.mjs';
-import { createHooks } from 'file://C:/Users/stuar/Programming/StuPortfolio/StuPortfolio/node_modules/hookable/dist/index.mjs';
-import { getContext } from 'file://C:/Users/stuar/Programming/StuPortfolio/StuPortfolio/node_modules/unctx/dist/index.mjs';
-import { createMemoryHistory, createRouter, START_LOCATION, useRoute as useRoute$1, RouterView } from 'file://C:/Users/stuar/Programming/StuPortfolio/StuPortfolio/node_modules/vue-router/dist/vue-router.node.mjs';
-import { createError as createError$1, sanitizeStatusCode } from 'file://C:/Users/stuar/Programming/StuPortfolio/StuPortfolio/node_modules/h3/dist/index.mjs';
-import { withQuery, hasProtocol, parseURL, isScriptProtocol, joinURL } from 'file://C:/Users/stuar/Programming/StuPortfolio/StuPortfolio/node_modules/ufo/dist/index.mjs';
-import { ssrRenderSuspense, ssrRenderComponent, ssrRenderVNode, ssrRenderAttrs, ssrRenderAttr } from 'file://C:/Users/stuar/Programming/StuPortfolio/StuPortfolio/node_modules/vue/server-renderer/index.mjs';
-import { defu } from 'file://C:/Users/stuar/Programming/StuPortfolio/StuPortfolio/node_modules/defu/dist/defu.mjs';
+import { hasInjectionContext, getCurrentInstance, useSSRContext, createApp, reactive, provide, onErrorCaptured, onServerPrefetch, unref, createVNode, resolveDynamicComponent, inject, toRef, shallowRef, shallowReactive, isReadonly, defineAsyncComponent, isRef, isShallow, isReactive, toRaw, ref, withCtx, mergeProps, nextTick, defineComponent, computed, h, Suspense, Transition } from 'file://C:/Users/stuar/node_modules/vue/index.mjs';
+import { $fetch } from 'file://C:/Users/stuar/node_modules/ofetch/dist/node.mjs';
+import { createHooks } from 'file://C:/Users/stuar/node_modules/hookable/dist/index.mjs';
+import { getContext } from 'file://C:/Users/stuar/node_modules/unctx/dist/index.mjs';
+import { createMemoryHistory, createRouter, START_LOCATION, useRoute as useRoute$1, RouterView } from 'file://C:/Users/stuar/node_modules/vue-router/dist/vue-router.node.mjs';
+import { createError as createError$1, sanitizeStatusCode } from 'file://C:/Users/stuar/node_modules/h3/dist/index.mjs';
+import { withQuery, hasProtocol, parseURL, isScriptProtocol, joinURL } from 'file://C:/Users/stuar/node_modules/ufo/dist/index.mjs';
+import { ssrRenderSuspense, ssrRenderComponent, ssrRenderVNode, ssrRenderAttrs, ssrRenderAttr } from 'file://C:/Users/stuar/node_modules/vue/server-renderer/index.mjs';
+import { defu } from 'file://C:/Users/stuar/node_modules/defu/dist/defu.mjs';
 import { a as useRuntimeConfig$1 } from '../nitro/nitro-prerenderer.mjs';
-import 'file://C:/Users/stuar/Programming/StuPortfolio/StuPortfolio/node_modules/node-fetch-native/dist/polyfill.mjs';
-import 'file://C:/Users/stuar/Programming/StuPortfolio/StuPortfolio/node_modules/destr/dist/index.mjs';
-import 'file://C:/Users/stuar/Programming/StuPortfolio/StuPortfolio/node_modules/unenv/runtime/fetch/index.mjs';
-import 'file://C:/Users/stuar/Programming/StuPortfolio/StuPortfolio/node_modules/scule/dist/index.mjs';
-import 'file://C:/Users/stuar/Programming/StuPortfolio/StuPortfolio/node_modules/klona/dist/index.mjs';
-import 'file://C:/Users/stuar/Programming/StuPortfolio/StuPortfolio/node_modules/ohash/dist/index.mjs';
-import 'file://C:/Users/stuar/Programming/StuPortfolio/StuPortfolio/node_modules/unstorage/dist/index.mjs';
-import 'file://C:/Users/stuar/Programming/StuPortfolio/StuPortfolio/node_modules/unstorage/drivers/fs.mjs';
-import 'file://C:/Users/stuar/Programming/StuPortfolio/StuPortfolio/node_modules/unstorage/drivers/memory.mjs';
-import 'file://C:/Users/stuar/Programming/StuPortfolio/StuPortfolio/node_modules/unstorage/drivers/lru-cache.mjs';
-import 'file://C:/Users/stuar/Programming/StuPortfolio/StuPortfolio/node_modules/unstorage/drivers/fs-lite.mjs';
-import 'file://C:/Users/stuar/Programming/StuPortfolio/StuPortfolio/node_modules/radix3/dist/index.mjs';
+import 'file://C:/Users/stuar/node_modules/node-fetch-native/dist/polyfill.mjs';
+import 'file://C:/Users/stuar/node_modules/destr/dist/index.mjs';
+import 'file://C:/Users/stuar/node_modules/unenv/runtime/fetch/index.mjs';
+import 'file://C:/Users/stuar/node_modules/scule/dist/index.mjs';
+import 'file://C:/Users/stuar/node_modules/klona/dist/index.mjs';
+import 'file://C:/Users/stuar/node_modules/ohash/dist/index.mjs';
+import 'file://C:/Users/stuar/node_modules/unstorage/dist/index.mjs';
+import 'file://C:/Users/stuar/node_modules/unstorage/drivers/fs.mjs';
+import 'file://C:/Users/stuar/node_modules/unstorage/drivers/memory.mjs';
+import 'file://C:/Users/stuar/node_modules/unstorage/drivers/lru-cache.mjs';
+import 'file://C:/Users/stuar/node_modules/unstorage/drivers/fs-lite.mjs';
+import 'file://C:/Users/stuar/node_modules/radix3/dist/index.mjs';
 import 'node:fs';
 import 'node:url';
-import 'file://C:/Users/stuar/Programming/StuPortfolio/StuPortfolio/node_modules/pathe/dist/index.mjs';
+import 'file://C:/Users/stuar/node_modules/pathe/dist/index.mjs';
 
 const appConfig = useRuntimeConfig$1().app;
 const baseURL = () => appConfig.baseURL;
@@ -456,7 +456,7 @@ const _routes = [
     meta: {},
     alias: [],
     redirect: void 0,
-    component: () => import('./_nuxt/contact-a5f2ea17.mjs').then((m) => m.default || m)
+    component: () => import('./_nuxt/contact-d4f9429f.mjs').then((m) => m.default || m)
   },
   {
     name: "index",
@@ -472,7 +472,7 @@ const _routes = [
     meta: {},
     alias: [],
     redirect: void 0,
-    component: () => import('./_nuxt/portfolio-1d9dd472.mjs').then((m) => m.default || m)
+    component: () => import('./_nuxt/portfolio-1107a97a.mjs').then((m) => m.default || m)
   },
   {
     name: "resume",
@@ -780,8 +780,8 @@ const _wrapIf = (component, props, slots) => {
   } };
 };
 const layouts = {
-  default: () => import('./_nuxt/default-e138063b.mjs').then((m) => m.default || m),
-  home: () => import('./_nuxt/home-9fdae15c.mjs').then((m) => m.default || m)
+  default: () => import('./_nuxt/default-46784f64.mjs').then((m) => m.default || m),
+  home: () => import('./_nuxt/home-cb43c0ec.mjs').then((m) => m.default || m)
 };
 const LayoutLoader = /* @__PURE__ */ defineComponent({
   name: "LayoutLoader",

@@ -1,6 +1,6 @@
-import { version, ref, watchEffect, watch, getCurrentInstance, unref, inject } from 'file://C:/Users/stuar/Programming/StuPortfolio/StuPortfolio/node_modules/vue/index.mjs';
-import { getActiveHead } from 'file://C:/Users/stuar/Programming/StuPortfolio/StuPortfolio/node_modules/unhead/dist/index.mjs';
-import { defineHeadPlugin, composableNames } from 'file://C:/Users/stuar/Programming/StuPortfolio/StuPortfolio/node_modules/@unhead/shared/dist/index.mjs';
+import { version, ref, watchEffect, watch, getCurrentInstance, unref, inject } from 'file://C:/Users/stuar/node_modules/vue/index.mjs';
+import { getActiveHead } from 'file://C:/Users/stuar/node_modules/unhead/dist/index.mjs';
+import { defineHeadPlugin, composableNames } from 'file://C:/Users/stuar/node_modules/@unhead/shared/dist/index.mjs';
 
 version.startsWith("3");
 function resolveUnref(r) {
