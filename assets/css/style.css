@@ -344,12 +344,7 @@ main {
   border-radius: 20px;
 }
 
-/* .info-content {
-  border: 1px solid white;
-} */
-
 .info-content .name {
-  /* border: 1px solid white; */
   color: var(--white-2);
   font-size: var(--fs-3);
   font-weight: var(--fw-500);

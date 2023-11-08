@@ -24,12 +24,12 @@ function toggleMenu() {
     <p class="title">Tech Promotion</p>
     <p class="title">International Sales</p>
   </div>
-
+<!-- 
   <button class="info_more-btn" data-sidebar-btn>
     <span>Show Contacts</span>
 
     <ion-icon name="chevron-down"></ion-icon>
-  </button>
+  </button> -->
 
 </div>
 

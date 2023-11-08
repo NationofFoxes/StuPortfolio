@@ -5,6 +5,8 @@
   <h2 class="h2 article-title">Contact</h2>
 </header>
 
+<div class="separator"></div>
+
 <ul class="contacts-list">
 
   <li class="contact-item">

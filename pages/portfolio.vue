@@ -13,11 +13,14 @@
       <a href="#">
 
         <figure class="project-img">
+          
+            <img src="~/assets/images/PythonSolitaire.png" alt="Solitaire" loading="lazy">
 
-          <img src="~/assets/images/PythonSolitaire.png" alt="Solitaire" loading="lazy">
         </figure>
 
-        <h3 class="project-title">Python Solitaire</h3>
+        <h3 class="project-title">
+
+          <a href="https://github.com/NationofFoxes/PythonCards" target="_blank">Python Solitaire</a></h3>
 
         <p class="project-category">Game</p>
 
@@ -28,11 +31,12 @@
       <a href="#">
 
         <figure class="project-img">
+          
+            <img src="~/assets/images/PythonChess.png" alt="Python Chess" loading="lazy">
 
-          <img src="~/assets/images/PythonChess.png" alt="Python Chess" loading="lazy">
         </figure>
 
-        <h3 class="project-title">CLI Game Suite</h3>
+        <h3 class="project-title"><a href="https://github.com/NationofFoxes/PythonCLIGames" target="_blank">CLI Game Suite</a></h3>
 
         <p class="project-category">Game/Web Dev</p>
 
@@ -43,8 +47,7 @@
       <a href="#">
 
         <figure class="project-img">
-
-          <img src="~/assets/images/SlingShot.gif" alt="fundo" loading="lazy">
+          <img src="~/assets/images/SlingShot.gif" alt="SlingShot Gameplay" loading="lazy">
         </figure>
 
         <h3 class="project-title">SlingShot</h3>
@@ -73,11 +76,14 @@
       <a href="#">
 
         <figure class="project-img">
-
-          <img src="~/assets/images/eventhorizon.png" alt="Event Horizon" loading="lazy">
+          
+            <img src="~/assets/images/eventhorizon.png" alt="Event Horizon" loading="lazy">
+          
         </figure>
 
-        <h3 class="project-title">Event Horizon</h3>
+        <h3 class="project-title">
+          <a href="https://github.com/Konami-Code-BA/EventHorizon" target="_blank">Event Horizon</a>
+        </h3>
 
         <p class="project-category">Web Programming/Business Concept</p>
 

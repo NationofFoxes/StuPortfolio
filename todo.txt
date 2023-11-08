@@ -1,5 +1,8 @@
 - Add links to github repos from portfolio page
+    - add CSS to make links easier to read
 
 - work out configurations so internal links and images work
 
 - fix contact chevron button (or remove)
+
+- create new pupsguide repo for link purposes
