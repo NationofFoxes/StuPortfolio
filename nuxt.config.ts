@@ -1,5 +1,4 @@
 
 export default {
-  router: {
-    base: '/repository-name'}
+  target: 'static',
 }
