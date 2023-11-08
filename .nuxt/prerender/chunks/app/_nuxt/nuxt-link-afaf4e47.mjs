@@ -1,5 +1,5 @@
-import { defineComponent, computed, ref, h, resolveComponent } from 'file://C:/Users/stuar/node_modules/vue/index.mjs';
-import { hasProtocol, parseURL, parseQuery, withTrailingSlash, withoutTrailingSlash } from 'file://C:/Users/stuar/node_modules/ufo/dist/index.mjs';
+import { defineComponent, computed, ref, h, resolveComponent } from 'file://C:/Users/stuar/Programming/StuPortfolio/StuPortfolio/node_modules/vue/index.mjs';
+import { hasProtocol, parseURL, parseQuery, withTrailingSlash, withoutTrailingSlash } from 'file://C:/Users/stuar/Programming/StuPortfolio/StuPortfolio/node_modules/ufo/dist/index.mjs';
 import { u as useRouter, n as navigateTo } from '../server.mjs';
 
 const firstNonUndefined = (...args) => args.find((arg) => arg !== void 0);

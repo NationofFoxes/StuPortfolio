@@ -1,39 +1,20 @@
-import { b as buildAssetsURL } from '../../renderer.mjs';
-import { mergeProps, useSSRContext, ref, resolveComponent, withCtx, createTextVNode } from 'file://C:/Users/stuar/node_modules/vue/index.mjs';
-import { ssrRenderAttrs, ssrRenderComponent, ssrRenderSlot, ssrRenderAttr } from 'file://C:/Users/stuar/node_modules/vue/server-renderer/index.mjs';
-import { _ as __nuxt_component_0$1 } from './nuxt-link-afaf4e47.mjs';
-import { _ as _export_sfc } from '../server.mjs';
-import { u as useHead } from './index-88e9f29c.mjs';
-import 'file://C:/Users/stuar/node_modules/vue-bundle-renderer/dist/runtime.mjs';
-import 'file://C:/Users/stuar/node_modules/h3/dist/index.mjs';
-import 'file://C:/Users/stuar/node_modules/devalue/index.js';
-import 'file://C:/Users/stuar/node_modules/ufo/dist/index.mjs';
-import 'file://C:/Users/stuar/node_modules/@unhead/ssr/dist/index.mjs';
-import '../../nitro/nitro-prerenderer.mjs';
-import 'file://C:/Users/stuar/node_modules/node-fetch-native/dist/polyfill.mjs';
-import 'file://C:/Users/stuar/node_modules/ofetch/dist/node.mjs';
-import 'file://C:/Users/stuar/node_modules/destr/dist/index.mjs';
-import 'file://C:/Users/stuar/node_modules/unenv/runtime/fetch/index.mjs';
-import 'file://C:/Users/stuar/node_modules/hookable/dist/index.mjs';
-import 'file://C:/Users/stuar/node_modules/scule/dist/index.mjs';
-import 'file://C:/Users/stuar/node_modules/klona/dist/index.mjs';
-import 'file://C:/Users/stuar/node_modules/defu/dist/defu.mjs';
-import 'file://C:/Users/stuar/node_modules/ohash/dist/index.mjs';
-import 'file://C:/Users/stuar/node_modules/unstorage/dist/index.mjs';
-import 'file://C:/Users/stuar/node_modules/unstorage/drivers/fs.mjs';
-import 'file://C:/Users/stuar/node_modules/unstorage/drivers/memory.mjs';
-import 'file://C:/Users/stuar/node_modules/unstorage/drivers/lru-cache.mjs';
-import 'file://C:/Users/stuar/node_modules/unstorage/drivers/fs-lite.mjs';
-import 'file://C:/Users/stuar/node_modules/radix3/dist/index.mjs';
-import 'node:fs';
-import 'node:url';
-import 'file://C:/Users/stuar/node_modules/pathe/dist/index.mjs';
-import 'file://C:/Users/stuar/node_modules/unhead/dist/index.mjs';
-import 'file://C:/Users/stuar/node_modules/@unhead/shared/dist/index.mjs';
-import 'file://C:/Users/stuar/node_modules/unctx/dist/index.mjs';
-import 'file://C:/Users/stuar/node_modules/vue-router/dist/vue-router.node.mjs';
-
-const _imports_0 = "" + buildAssetsURL("pfp_beach.e2387c06.jpg");
+import { ref, resolveComponent, mergeProps, useSSRContext, withCtx, createTextVNode, version, unref, inject, watchEffect, watch, getCurrentInstance } from "vue";
+import { ssrRenderAttrs, ssrRenderAttr, ssrRenderComponent, ssrRenderSlot } from "vue/server-renderer";
+import { _ as __nuxt_component_0$1 } from "./nuxt-link-afaf4e47.js";
+import { _ as _export_sfc } from "../server.mjs";
+import { defineHeadPlugin, composableNames } from "@unhead/shared";
+import { getActiveHead } from "unhead";
+import "ufo";
+import "hookable";
+import "ofetch";
+import "#internal/nitro";
+import "unctx";
+import "vue-router";
+import "h3";
+import "devalue";
+import "destr";
+import "defu";
+const _imports_0 = "" + __buildAssetsURL("pfp_beach.e2387c06.jpg");
 const _sfc_main$2 = {
   __name: "Sidebar",
   __ssrInlineRender: true,
@@ -69,6 +50,7 @@ _sfc_main$2.setup = (props, ctx) => {
   return _sfc_setup$2 ? _sfc_setup$2(props, ctx) : void 0;
 };
 const __nuxt_component_0 = _sfc_main$2;
+const Navbar_vue_vue_type_style_index_0_scoped_cc308a11_lang = "";
 const _sfc_main$1 = {};
 function _sfc_ssrRender(_ctx, _push, _parent, _attrs) {
   const _component_NuxtLink = __nuxt_component_0$1;
@@ -145,6 +127,77 @@ _sfc_main$1.setup = (props, ctx) => {
   return _sfc_setup$1 ? _sfc_setup$1(props, ctx) : void 0;
 };
 const __nuxt_component_1 = /* @__PURE__ */ _export_sfc(_sfc_main$1, [["ssrRender", _sfc_ssrRender], ["__scopeId", "data-v-cc308a11"]]);
+version.startsWith("3");
+function resolveUnref(r) {
+  return typeof r === "function" ? r() : unref(r);
+}
+function resolveUnrefHeadInput(ref2, lastKey = "") {
+  if (ref2 instanceof Promise)
+    return ref2;
+  const root = resolveUnref(ref2);
+  if (!ref2 || !root)
+    return root;
+  if (Array.isArray(root))
+    return root.map((r) => resolveUnrefHeadInput(r, lastKey));
+  if (typeof root === "object") {
+    return Object.fromEntries(
+      Object.entries(root).map(([k, v]) => {
+        if (k === "titleTemplate" || k.startsWith("on"))
+          return [k, unref(v)];
+        return [k, resolveUnrefHeadInput(v, k)];
+      })
+    );
+  }
+  return root;
+}
+defineHeadPlugin({
+  hooks: {
+    "entries:resolve": function(ctx) {
+      for (const entry of ctx.entries)
+        entry.resolvedInput = resolveUnrefHeadInput(entry.input);
+    }
+  }
+});
+const headSymbol = "usehead";
+const _global = typeof globalThis !== "undefined" ? globalThis : typeof global !== "undefined" ? global : typeof self !== "undefined" ? self : {};
+const globalKey = "__unhead_injection_handler__";
+function injectHead() {
+  if (globalKey in _global) {
+    return _global[globalKey]();
+  }
+  const head = inject(headSymbol);
+  if (!head && process.env.NODE_ENV !== "production")
+    console.warn("Unhead is missing Vue context, falling back to shared context. This may have unexpected results.");
+  return head || getActiveHead();
+}
+function useHead(input, options = {}) {
+  const head = options.head || injectHead();
+  if (head) {
+    if (!head.ssr)
+      return clientUseHead(head, input, options);
+    return head.push(input, options);
+  }
+}
+function clientUseHead(head, input, options = {}) {
+  const deactivated = ref(false);
+  const resolvedInput = ref({});
+  watchEffect(() => {
+    resolvedInput.value = deactivated.value ? {} : resolveUnrefHeadInput(input);
+  });
+  const entry = head.push(resolvedInput.value, options);
+  watch(resolvedInput, (e) => {
+    entry.patch(e);
+  });
+  getCurrentInstance();
+  return entry;
+}
+const coreComposableNames = [
+  "injectHead"
+];
+({
+  "@unhead/vue": [...coreComposableNames, ...composableNames]
+});
+const default_vue_vue_type_style_index_0_lang = "";
 const _sfc_main = {
   __name: "default",
   __ssrInlineRender: true,
@@ -210,6 +263,7 @@ _sfc_main.setup = (props, ctx) => {
   (ssrContext.modules || (ssrContext.modules = /* @__PURE__ */ new Set())).add("layouts/default.vue");
   return _sfc_setup ? _sfc_setup(props, ctx) : void 0;
 };
-
-export { _sfc_main as default };
-//# sourceMappingURL=default-11a963ea.mjs.map
+export {
+  _sfc_main as default
+};
+//# sourceMappingURL=default-e138063b.js.map
