@@ -12,9 +12,9 @@ export default {
     "prefetch": true,
     "preload": true,
     "css": [],
-    "file": "error-404.0a2053f6.js",
+    "file": "error-404.3f3d97af.js",
     "imports": [
-      "_nuxt-link.0525a0f3.js",
+      "_nuxt-link.67cccf49.js",
       "../../../node_modules/nuxt/dist/app/entry.js"
     ],
     "isDynamicEntry": true,
@@ -39,7 +39,7 @@ export default {
     "prefetch": true,
     "preload": true,
     "css": [],
-    "file": "error-500.2385f37f.js",
+    "file": "error-500.9824365b.js",
     "imports": [
       "../../../node_modules/nuxt/dist/app/entry.js"
     ],
@@ -76,7 +76,7 @@ export default {
       "../../../node_modules/@nuxt/ui-templates/dist/templates/error-404.vue",
       "../../../node_modules/@nuxt/ui-templates/dist/templates/error-500.vue"
     ],
-    "file": "entry.7cbd3060.js",
+    "file": "entry.c335e561.js",
     "isEntry": true,
     "src": "../../../node_modules/nuxt/dist/app/entry.js",
     "_globalCSS": true
@@ -93,12 +93,12 @@ export default {
     "prefetch": true,
     "mimeType": "image/jpeg"
   },
-  "_nuxt-link.0525a0f3.js": {
+  "_nuxt-link.67cccf49.js": {
     "resourceType": "script",
     "module": true,
     "prefetch": true,
     "preload": true,
-    "file": "nuxt-link.0525a0f3.js",
+    "file": "nuxt-link.67cccf49.js",
     "imports": [
       "../../../node_modules/nuxt/dist/app/entry.js"
     ]
@@ -156,7 +156,7 @@ export default {
     "resourceType": "style",
     "prefetch": true,
     "preload": true,
-    "file": "default.b4f32291.css",
+    "file": "default.cd0a50a0.css",
     "src": "layouts/default.css"
   },
   "layouts/default.vue": {
@@ -168,16 +168,16 @@ export default {
       "pfp_beach.e2387c06.jpg"
     ],
     "css": [],
-    "file": "default.c3fa8591.js",
+    "file": "default.2127ebe3.js",
     "imports": [
       "../../../node_modules/nuxt/dist/app/entry.js",
-      "_nuxt-link.0525a0f3.js"
+      "_nuxt-link.67cccf49.js"
     ],
     "isDynamicEntry": true,
     "src": "layouts/default.vue"
   },
-  "default.b4f32291.css": {
-    "file": "default.b4f32291.css",
+  "default.cd0a50a0.css": {
+    "file": "default.cd0a50a0.css",
     "resourceType": "style",
     "prefetch": true,
     "preload": true
@@ -192,7 +192,7 @@ export default {
     "resourceType": "style",
     "prefetch": true,
     "preload": true,
-    "file": "home.ed76ee00.css",
+    "file": "home.3b0dadaf.css",
     "src": "layouts/home.css"
   },
   "layouts/home.vue": {
@@ -201,15 +201,15 @@ export default {
     "prefetch": true,
     "preload": true,
     "css": [],
-    "file": "home.68aa16f0.js",
+    "file": "home.5e92bf0c.js",
     "imports": [
       "../../../node_modules/nuxt/dist/app/entry.js"
     ],
     "isDynamicEntry": true,
     "src": "layouts/home.vue"
   },
-  "home.ed76ee00.css": {
-    "file": "home.ed76ee00.css",
+  "home.3b0dadaf.css": {
+    "file": "home.3b0dadaf.css",
     "resourceType": "style",
     "prefetch": true,
     "preload": true
@@ -219,7 +219,7 @@ export default {
     "module": true,
     "prefetch": true,
     "preload": true,
-    "file": "about.89a79aa0.js",
+    "file": "about.c5b56a27.js",
     "imports": [
       "../../../node_modules/nuxt/dist/app/entry.js"
     ],
@@ -231,7 +231,7 @@ export default {
     "module": true,
     "prefetch": true,
     "preload": true,
-    "file": "contact.8ea1709a.js",
+    "file": "contact.ae34b370.js",
     "imports": [
       "../../../node_modules/nuxt/dist/app/entry.js"
     ],
@@ -243,7 +243,7 @@ export default {
     "module": true,
     "prefetch": true,
     "preload": true,
-    "file": "index.86153c18.js",
+    "file": "index.a61aad0f.js",
     "imports": [
       "../../../node_modules/nuxt/dist/app/entry.js"
     ],
@@ -262,7 +262,7 @@ export default {
       "PupsGuide.f41535c6.gif",
       "eventhorizon.66a42dfc.png"
     ],
-    "file": "portfolio.1703399e.js",
+    "file": "portfolio.e9f26268.js",
     "imports": [
       "../../../node_modules/nuxt/dist/app/entry.js"
     ],
@@ -304,7 +304,7 @@ export default {
     "module": true,
     "prefetch": true,
     "preload": true,
-    "file": "resume.a05bf283.js",
+    "file": "resume.a5756154.js",
     "imports": [
       "../../../node_modules/nuxt/dist/app/entry.js"
     ],

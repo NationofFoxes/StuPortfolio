@@ -1249,6 +1249,24 @@ textarea.contact::-webkit-resizer { display: none; }
   #RESPONSIVE
 \*-----------------------------------*/
 
+@media (min-width: 280px) {
+
+  .sidebar {
+    max-height: 200px;
+    margin-bottom: 30px;
+  }
+
+  .avatar-image{
+    max-width: 50%;
+    border-radius: 50%;
+    border: solid;
+    border-width: 7px;
+    border-color: var(--vegas-gold);
+}
+
+
+}
+
 /**
  * responsive larger than 450px screen
  */
@@ -1415,10 +1433,6 @@ textarea.contact::-webkit-resizer { display: none; }
     border-color: var(--vegas-gold);
   }
 
-  .sidebar {
-    max-height: 250px;
-    margin-bottom: 30px;
-  }
 
 
 
