@@ -5,34 +5,91 @@
   <h2 class="h2 article-title">Contact</h2>
 </header>
 
-<section class="mapbox" data-mapbox>
-  <figure>
-    <iframe src="https://www.google.com/maps/embed?pb=!1m14!1m12!1m3!1d91984.81953725369!2d139.77324320778018!3d35.727135207267985!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!5e0!3m2!1sen!2sjp!4v1699410760566!5m2!1sen!2sjp" width="600" height="450" style="border:0;" allowfullscreen="" loading="lazy" referrerpolicy="no-referrer-when-downgrade"></iframe>
-  </figure>
-</section>
+<ul class="contacts-list">
 
-<section class="contact-form">
+  <li class="contact-item">
 
-  <h3 class="h3 form-title">Contact Form</h3>
-
-  <form action="#" class="form" data-form>
-
-    <div class="input-wrapper">
-      <input type="text" name="fullname" class="form-input" placeholder="Full name" required data-form-input>
-
-      <input type="email" name="email" class="form-input" placeholder="Email address" required data-form-input>
+    <div class="icon-box">
+      <ion-icon name="mail-outline"></ion-icon>
     </div>
 
-    <textarea name="message" class="form-input" placeholder="Your Message" required data-form-input></textarea>
+    <div class="contact-info">
+      <p class="contact-title">Email</p>
 
-    <button class="form-btn" type="submit" disabled data-form-btn>
-      <ion-icon name="paper-plane"></ion-icon>
-      <span>Send Message</span>
-    </button>
+      <a href="mailto:stuart.william.auld@gmail.com" class="contact-link">stuart.william.auld@gmail.com</a>
+    </div>
 
-  </form>
+  </li>
 
-</section>
+  <li class="contact-item">
+
+    <div class="icon-box">
+      <ion-icon name="logo-instagram"></ion-icon>
+    </div>
+
+    <div class="contact-info">
+      <p class="contact-title">Instagram</p>
+      <a href="https://www.instagram.com/nationoffoxes/" class="contact-link" target="blank">NationofFoxes</a>
+    </div>
+
+  </li>
+
+  <li class="contact-item">
+
+    <div class="icon-box">
+      <ion-icon name="logo-linkedin"></ion-icon>
+    </div>
+
+    <div class="contact-info">
+      <p class="contact-title">LinkedIn</p>
+      <a href="https://www.linkedin.com/in/stuartwilliamauld/" class="contact-link" target="blank">Stuart William Auld</a>
+    </div>
+
+  </li>
+
+</ul>
+
+  <!-- <section class="contact-form">
+    <h3 class="h3 form-title">Contact Form</h3>
+      <form @submit.prevent="submitForm" class="form" data-form>
+        <div class="input-wrapper">
+          <input v-model="formData.fullname" type="text" name="fullname" class="form-input" placeholder="Full name" required data-form-input>
+          <input v-model="formData.email" type="email" name="email" class="form-input" placeholder="Email address" required data-form-input>
+        </div>
+        <textarea v-model="formData.message" name="message" class="form-input" placeholder="Your Message" required data-form-input></textarea>
+          <button class="form-btn" type="submit" :disabled="formSubmitted" data-form-btn>
+            <ion-icon name="paper-plane"></ion-icon>
+            <span>Send Message</span>
+          </button>
+
+      </form>
+
+  </section> -->
+
+
 
 </article>
 </template>
+
+<!-- <script>
+export default {
+  data() {
+    return {
+      formData: {
+        fullname: "",
+        email: "",
+        message: "",
+      },
+      formSubmitted: false,
+    };
+  },
+  methods: {
+    submitForm() {
+      // Here you can add code to handle form submission.
+      // You can send the form data to a server or perform any other necessary actions.
+      // For this example, we'll just display a success message.
+      this.formSubmitted = true;
+    },
+  },
+};
+</script> -->

@@ -296,6 +296,9 @@ article.active {
 .avatar-image{
   max-width: 100%;
   border-radius: 50%;
+  border: solid;
+  border-width: 7px;
+  border-color: var(--vegas-gold);
 }
 
 
