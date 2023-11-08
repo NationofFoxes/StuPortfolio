@@ -1,23 +1,23 @@
-globalThis._importMeta_=globalThis._importMeta_||{url:"file:///_entry.js",env:process.env};import 'file://C:/Users/stuar/Programming/StuPortfolio/StuPortfolio/node_modules/node-fetch-native/dist/polyfill.mjs';
-import { defineEventHandler, handleCacheHeaders, isEvent, createEvent, getRequestHeader, splitCookiesString, eventHandler, setHeaders, sendRedirect, proxyRequest, setResponseStatus, setResponseHeader, send, getRequestHeaders, removeResponseHeader, createError, getResponseHeader, createApp, createRouter as createRouter$1, toNodeListener, fetchWithEvent, lazyEventHandler } from 'file://C:/Users/stuar/Programming/StuPortfolio/StuPortfolio/node_modules/h3/dist/index.mjs';
-import { createFetch as createFetch$1, Headers as Headers$1 } from 'file://C:/Users/stuar/Programming/StuPortfolio/StuPortfolio/node_modules/ofetch/dist/node.mjs';
-import destr from 'file://C:/Users/stuar/Programming/StuPortfolio/StuPortfolio/node_modules/destr/dist/index.mjs';
-import { createCall, createFetch } from 'file://C:/Users/stuar/Programming/StuPortfolio/StuPortfolio/node_modules/unenv/runtime/fetch/index.mjs';
-import { createHooks } from 'file://C:/Users/stuar/Programming/StuPortfolio/StuPortfolio/node_modules/hookable/dist/index.mjs';
-import { snakeCase } from 'file://C:/Users/stuar/Programming/StuPortfolio/StuPortfolio/node_modules/scule/dist/index.mjs';
-import { klona } from 'file://C:/Users/stuar/Programming/StuPortfolio/StuPortfolio/node_modules/klona/dist/index.mjs';
-import defu, { defuFn } from 'file://C:/Users/stuar/Programming/StuPortfolio/StuPortfolio/node_modules/defu/dist/defu.mjs';
-import { hash } from 'file://C:/Users/stuar/Programming/StuPortfolio/StuPortfolio/node_modules/ohash/dist/index.mjs';
-import { parseURL, withoutBase, joinURL, getQuery, withQuery, decodePath, withLeadingSlash, withoutTrailingSlash } from 'file://C:/Users/stuar/Programming/StuPortfolio/StuPortfolio/node_modules/ufo/dist/index.mjs';
-import { createStorage, prefixStorage } from 'file://C:/Users/stuar/Programming/StuPortfolio/StuPortfolio/node_modules/unstorage/dist/index.mjs';
-import unstorage_47drivers_47fs from 'file://C:/Users/stuar/Programming/StuPortfolio/StuPortfolio/node_modules/unstorage/drivers/fs.mjs';
-import unstorage_47drivers_47memory from 'file://C:/Users/stuar/Programming/StuPortfolio/StuPortfolio/node_modules/unstorage/drivers/memory.mjs';
-import unstorage_47drivers_47lru_45cache from 'file://C:/Users/stuar/Programming/StuPortfolio/StuPortfolio/node_modules/unstorage/drivers/lru-cache.mjs';
-import unstorage_47drivers_47fs_45lite from 'file://C:/Users/stuar/Programming/StuPortfolio/StuPortfolio/node_modules/unstorage/drivers/fs-lite.mjs';
-import { toRouteMatcher, createRouter } from 'file://C:/Users/stuar/Programming/StuPortfolio/StuPortfolio/node_modules/radix3/dist/index.mjs';
+globalThis._importMeta_=globalThis._importMeta_||{url:"file:///_entry.js",env:process.env};import 'file://C:/Users/stuar/node_modules/node-fetch-native/dist/polyfill.mjs';
+import { defineEventHandler, handleCacheHeaders, isEvent, createEvent, getRequestHeader, splitCookiesString, eventHandler, setHeaders, sendRedirect, proxyRequest, setResponseStatus, setResponseHeader, send, getRequestHeaders, removeResponseHeader, createError, getResponseHeader, createApp, createRouter as createRouter$1, toNodeListener, fetchWithEvent, lazyEventHandler } from 'file://C:/Users/stuar/node_modules/h3/dist/index.mjs';
+import { createFetch as createFetch$1, Headers as Headers$1 } from 'file://C:/Users/stuar/node_modules/ofetch/dist/node.mjs';
+import destr from 'file://C:/Users/stuar/node_modules/destr/dist/index.mjs';
+import { createCall, createFetch } from 'file://C:/Users/stuar/node_modules/unenv/runtime/fetch/index.mjs';
+import { createHooks } from 'file://C:/Users/stuar/node_modules/hookable/dist/index.mjs';
+import { snakeCase } from 'file://C:/Users/stuar/node_modules/scule/dist/index.mjs';
+import { klona } from 'file://C:/Users/stuar/node_modules/klona/dist/index.mjs';
+import defu, { defuFn } from 'file://C:/Users/stuar/node_modules/defu/dist/defu.mjs';
+import { hash } from 'file://C:/Users/stuar/node_modules/ohash/dist/index.mjs';
+import { parseURL, withoutBase, joinURL, getQuery, withQuery, decodePath, withLeadingSlash, withoutTrailingSlash } from 'file://C:/Users/stuar/node_modules/ufo/dist/index.mjs';
+import { createStorage, prefixStorage } from 'file://C:/Users/stuar/node_modules/unstorage/dist/index.mjs';
+import unstorage_47drivers_47fs from 'file://C:/Users/stuar/node_modules/unstorage/drivers/fs.mjs';
+import unstorage_47drivers_47memory from 'file://C:/Users/stuar/node_modules/unstorage/drivers/memory.mjs';
+import unstorage_47drivers_47lru_45cache from 'file://C:/Users/stuar/node_modules/unstorage/drivers/lru-cache.mjs';
+import unstorage_47drivers_47fs_45lite from 'file://C:/Users/stuar/node_modules/unstorage/drivers/fs-lite.mjs';
+import { toRouteMatcher, createRouter } from 'file://C:/Users/stuar/node_modules/radix3/dist/index.mjs';
 import { promises } from 'node:fs';
 import { fileURLToPath } from 'node:url';
-import { dirname, resolve } from 'file://C:/Users/stuar/Programming/StuPortfolio/StuPortfolio/node_modules/pathe/dist/index.mjs';
+import { dirname, resolve } from 'file://C:/Users/stuar/node_modules/pathe/dist/index.mjs';
 
 const inlineAppConfig = {};
 
@@ -581,168 +581,168 @@ const assets = {
   "/favicon.ico": {
     "type": "image/vnd.microsoft.icon",
     "etag": "\"10be-n8egyE9tcb7sKGr/pYCaQ4uWqxI\"",
-    "mtime": "2023-08-26T00:35:21.000Z",
+    "mtime": "2023-11-08T11:34:34.909Z",
     "size": 4286,
     "path": "../../.output/public/favicon.ico"
   },
-  "/_nuxt/about.4ab1d3b3.js": {
+  "/_nuxt/about.f41e531e.js": {
     "type": "application/javascript",
-    "etag": "\"742-PVXP7AcryPOxXvb24FF5JP36D+M\"",
-    "mtime": "2023-11-08T11:10:38.128Z",
+    "etag": "\"742-wOhkPj3LuphXw8g1Yptilku9+Cc\"",
+    "mtime": "2023-11-08T11:40:44.471Z",
     "size": 1858,
-    "path": "../../.output/public/_nuxt/about.4ab1d3b3.js"
+    "path": "../../.output/public/_nuxt/about.f41e531e.js"
   },
-  "/_nuxt/contact.7314bdd3.js": {
+  "/_nuxt/contact.1c03183d.js": {
     "type": "application/javascript",
-    "etag": "\"4d8-jtv2W4u7bpr2SKiE9HpVmxDHpIE\"",
-    "mtime": "2023-11-08T11:10:38.128Z",
+    "etag": "\"4d8-it5spzqPdtd3Rb9FiNSUuMYGZnM\"",
+    "mtime": "2023-11-08T11:40:44.471Z",
     "size": 1240,
-    "path": "../../.output/public/_nuxt/contact.7314bdd3.js"
+    "path": "../../.output/public/_nuxt/contact.1c03183d.js"
   },
-  "/_nuxt/default.d74d1439.js": {
+  "/_nuxt/default.59976bf0.js": {
     "type": "application/javascript",
-    "etag": "\"11d2-QCk2ep2IQruIL3YrXPZV/5f7nNQ\"",
-    "mtime": "2023-11-08T11:10:38.130Z",
-    "size": 4562,
-    "path": "../../.output/public/_nuxt/default.d74d1439.js"
+    "etag": "\"ef6-KnWeXYD+vQoEZgY+AsCHm5ImJMg\"",
+    "mtime": "2023-11-08T11:40:44.473Z",
+    "size": 3830,
+    "path": "../../.output/public/_nuxt/default.59976bf0.js"
   },
   "/_nuxt/default.f8c8e50c.css": {
     "type": "text/css; charset=utf-8",
     "etag": "\"586b-dUgFvlA/jthOmT4QH76ZiKNDBvE\"",
-    "mtime": "2023-11-08T11:10:38.128Z",
+    "mtime": "2023-11-08T11:40:44.471Z",
     "size": 22635,
     "path": "../../.output/public/_nuxt/default.f8c8e50c.css"
+  },
+  "/_nuxt/entry.7e748d7b.js": {
+    "type": "application/javascript",
+    "etag": "\"231de-MNbkUvHw+3MxOkR0q8C9W38tnG8\"",
+    "mtime": "2023-11-08T11:40:44.473Z",
+    "size": 143838,
+    "path": "../../.output/public/_nuxt/entry.7e748d7b.js"
   },
   "/_nuxt/entry.8f8afb93.css": {
     "type": "text/css; charset=utf-8",
     "etag": "\"1e5-DAauI72AckqOoP6AQ/Wpm8eOJXo\"",
-    "mtime": "2023-11-08T11:10:38.128Z",
+    "mtime": "2023-11-08T11:40:44.471Z",
     "size": 485,
     "path": "../../.output/public/_nuxt/entry.8f8afb93.css"
-  },
-  "/_nuxt/entry.ba38a5d1.js": {
-    "type": "application/javascript",
-    "etag": "\"2361f-dQAm3EGhJrSL4dgNdjktnO7Zyck\"",
-    "mtime": "2023-11-08T11:10:38.130Z",
-    "size": 144927,
-    "path": "../../.output/public/_nuxt/entry.ba38a5d1.js"
-  },
-  "/_nuxt/error-404.11bd63b9.js": {
-    "type": "application/javascript",
-    "etag": "\"8cd-9OWfcSRKn7XAbedE2acppx/3U/Y\"",
-    "mtime": "2023-11-08T11:10:38.129Z",
-    "size": 2253,
-    "path": "../../.output/public/_nuxt/error-404.11bd63b9.js"
   },
   "/_nuxt/error-404.52017bea.css": {
     "type": "text/css; charset=utf-8",
     "etag": "\"e2e-4mLEB1613va/v/p9mFEBdIzhUH8\"",
-    "mtime": "2023-11-08T11:10:38.128Z",
+    "mtime": "2023-11-08T11:40:44.471Z",
     "size": 3630,
     "path": "../../.output/public/_nuxt/error-404.52017bea.css"
+  },
+  "/_nuxt/error-404.a12a5179.js": {
+    "type": "application/javascript",
+    "etag": "\"8cd-pRgi8YYnyWg8gzPlks1uJiaDP/U\"",
+    "mtime": "2023-11-08T11:40:44.467Z",
+    "size": 2253,
+    "path": "../../.output/public/_nuxt/error-404.a12a5179.js"
   },
   "/_nuxt/error-500.779a8b64.css": {
     "type": "text/css; charset=utf-8",
     "etag": "\"79e-M56Fiw3zS0g0s9bOo/W3eJhVDMM\"",
-    "mtime": "2023-11-08T11:10:38.128Z",
+    "mtime": "2023-11-08T11:40:44.471Z",
     "size": 1950,
     "path": "../../.output/public/_nuxt/error-500.779a8b64.css"
   },
-  "/_nuxt/error-500.bf9d1f23.js": {
+  "/_nuxt/error-500.e79f4c2c.js": {
     "type": "application/javascript",
-    "etag": "\"756-pbAwTHFtvYZ4pID+tXo7/L3P9aw\"",
-    "mtime": "2023-11-08T11:10:38.128Z",
+    "etag": "\"756-dNVBAFy/oVxosKb7Ls66ahTrp10\"",
+    "mtime": "2023-11-08T11:40:44.471Z",
     "size": 1878,
-    "path": "../../.output/public/_nuxt/error-500.bf9d1f23.js"
+    "path": "../../.output/public/_nuxt/error-500.e79f4c2c.js"
   },
   "/_nuxt/eventhorizon.66a42dfc.png": {
     "type": "image/png",
     "etag": "\"1f87-Fy6e/d3GCVjUJUv4dzsjtYxMgKM\"",
-    "mtime": "2023-11-08T11:10:38.128Z",
+    "mtime": "2023-11-08T11:40:44.469Z",
     "size": 8071,
     "path": "../../.output/public/_nuxt/eventhorizon.66a42dfc.png"
   },
-  "/_nuxt/home.27238d17.js": {
+  "/_nuxt/home.0ab80fae.js": {
     "type": "application/javascript",
-    "etag": "\"137-+Gnak3y1LAEwrQdUjNVtLQuOgIc\"",
-    "mtime": "2023-11-08T11:10:38.130Z",
+    "etag": "\"137-tvF2KiYZbnedMUOAnblXxbrDbKw\"",
+    "mtime": "2023-11-08T11:40:44.472Z",
     "size": 311,
-    "path": "../../.output/public/_nuxt/home.27238d17.js"
+    "path": "../../.output/public/_nuxt/home.0ab80fae.js"
   },
   "/_nuxt/home.c6970222.css": {
     "type": "text/css; charset=utf-8",
     "etag": "\"57f1-7rjC8fyahQ1QbbCozSxLd9tD3mQ\"",
-    "mtime": "2023-11-08T11:10:38.128Z",
+    "mtime": "2023-11-08T11:40:44.471Z",
     "size": 22513,
     "path": "../../.output/public/_nuxt/home.c6970222.css"
   },
-  "/_nuxt/index.ff097043.js": {
+  "/_nuxt/index.6d16c83d.js": {
     "type": "application/javascript",
-    "etag": "\"742-SJ0+Q1Jicgr/moHq47K2rF80QdQ\"",
-    "mtime": "2023-11-08T11:10:38.128Z",
+    "etag": "\"742-8bJ7mNyCyebAeh6XeqEtYCwZonM\"",
+    "mtime": "2023-11-08T11:40:44.471Z",
     "size": 1858,
-    "path": "../../.output/public/_nuxt/index.ff097043.js"
+    "path": "../../.output/public/_nuxt/index.6d16c83d.js"
   },
-  "/_nuxt/nuxt-link.62450268.js": {
+  "/_nuxt/nuxt-link.ba864b0f.js": {
     "type": "application/javascript",
-    "etag": "\"10ec-tC9BP+s9MIaCTVFyIPZa+n7TB0I\"",
-    "mtime": "2023-11-08T11:10:38.128Z",
-    "size": 4332,
-    "path": "../../.output/public/_nuxt/nuxt-link.62450268.js"
+    "etag": "\"10f6-cywNG7MN0HPBEHjDtxDH7YgLqb4\"",
+    "mtime": "2023-11-08T11:40:44.471Z",
+    "size": 4342,
+    "path": "../../.output/public/_nuxt/nuxt-link.ba864b0f.js"
   },
   "/_nuxt/pfp_beach.e2387c06.jpg": {
     "type": "image/jpeg",
     "etag": "\"15bc4-gLJ7izZU0CgWiAOjhWfZtxdUE6s\"",
-    "mtime": "2023-11-08T11:10:38.128Z",
+    "mtime": "2023-11-08T11:40:44.471Z",
     "size": 89028,
     "path": "../../.output/public/_nuxt/pfp_beach.e2387c06.jpg"
   },
-  "/_nuxt/portfolio.0f94bab6.js": {
+  "/_nuxt/portfolio.86d173c0.js": {
     "type": "application/javascript",
-    "etag": "\"82f-tc6rEKHR0DuFjg999AHULkOaRl8\"",
-    "mtime": "2023-11-08T11:10:38.128Z",
+    "etag": "\"82f-+gwvrDg6j33XI5jvhhqc8NTPg54\"",
+    "mtime": "2023-11-08T11:40:44.471Z",
     "size": 2095,
-    "path": "../../.output/public/_nuxt/portfolio.0f94bab6.js"
+    "path": "../../.output/public/_nuxt/portfolio.86d173c0.js"
   },
   "/_nuxt/PupsGuide.f41535c6.gif": {
     "type": "image/gif",
     "etag": "\"125e77a-wifCOMYu9YV9HTAXp1plhJdv+bY\"",
-    "mtime": "2023-11-08T11:10:38.135Z",
+    "mtime": "2023-11-08T11:40:44.481Z",
     "size": 19261306,
     "path": "../../.output/public/_nuxt/PupsGuide.f41535c6.gif"
   },
   "/_nuxt/PythonChess.9e391d19.png": {
     "type": "image/png",
     "etag": "\"7efe-2H9MIoFky/4ou5g8Gd62L8vgVYs\"",
-    "mtime": "2023-11-08T11:10:38.124Z",
+    "mtime": "2023-11-08T11:40:44.469Z",
     "size": 32510,
     "path": "../../.output/public/_nuxt/PythonChess.9e391d19.png"
   },
   "/_nuxt/PythonSolitaire.4bc642ec.png": {
     "type": "image/png",
     "etag": "\"249ba-9Q9RDwNL5xdS3EFGP34bsnYrJDI\"",
-    "mtime": "2023-11-08T11:10:38.128Z",
+    "mtime": "2023-11-08T11:40:44.469Z",
     "size": 149946,
     "path": "../../.output/public/_nuxt/PythonSolitaire.4bc642ec.png"
   },
-  "/_nuxt/resume.a0a79552.js": {
+  "/_nuxt/resume.b3e3e7ea.js": {
     "type": "application/javascript",
-    "etag": "\"1289-u+HSWZJ2clLgARQMWxEavJjhVuo\"",
-    "mtime": "2023-11-08T11:10:38.128Z",
+    "etag": "\"1289-8ES6eGpOxvqOMf2zfE0XkRDkSRU\"",
+    "mtime": "2023-11-08T11:40:44.471Z",
     "size": 4745,
-    "path": "../../.output/public/_nuxt/resume.a0a79552.js"
+    "path": "../../.output/public/_nuxt/resume.b3e3e7ea.js"
   },
   "/_nuxt/SlingShot.0165b3e9.gif": {
     "type": "image/gif",
     "etag": "\"2df5a5-WpvQ6GnGY9DdRD0435ALZ7rDyvw\"",
-    "mtime": "2023-11-08T11:10:38.131Z",
+    "mtime": "2023-11-08T11:40:44.474Z",
     "size": 3012005,
     "path": "../../.output/public/_nuxt/SlingShot.0165b3e9.gif"
   },
   "/_nuxt/Sunny.9f276641.jpg": {
     "type": "image/jpeg",
     "etag": "\"2f90f-5YgpuCGO/wQ8RKIl7b+xcNG614Y\"",
-    "mtime": "2023-11-08T11:10:38.128Z",
+    "mtime": "2023-11-08T11:40:44.469Z",
     "size": 194831,
     "path": "../../.output/public/_nuxt/Sunny.9f276641.jpg"
   }
