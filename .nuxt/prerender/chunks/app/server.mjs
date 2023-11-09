@@ -472,7 +472,7 @@ const _routes = [
     meta: {},
     alias: [],
     redirect: void 0,
-    component: () => import('./_nuxt/portfolio-1107a97a.mjs').then((m) => m.default || m)
+    component: () => import('./_nuxt/portfolio-08607c1a.mjs').then((m) => m.default || m)
   },
   {
     name: "resume",
@@ -480,7 +480,7 @@ const _routes = [
     meta: {},
     alias: [],
     redirect: void 0,
-    component: () => import('./_nuxt/resume-af619008.mjs').then((m) => m.default || m)
+    component: () => import('./_nuxt/resume-4a442c4f.mjs').then((m) => m.default || m)
   }
 ];
 const appLayoutTransition = false;
@@ -780,8 +780,8 @@ const _wrapIf = (component, props, slots) => {
   } };
 };
 const layouts = {
-  default: () => import('./_nuxt/default-66600433.mjs').then((m) => m.default || m),
-  home: () => import('./_nuxt/home-865d3e98.mjs').then((m) => m.default || m)
+  default: () => import('./_nuxt/default-f9f81b9b.mjs').then((m) => m.default || m),
+  home: () => import('./_nuxt/home-e8451f04.mjs').then((m) => m.default || m)
 };
 const LayoutLoader = /* @__PURE__ */ defineComponent({
   name: "LayoutLoader",
