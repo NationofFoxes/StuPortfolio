@@ -854,12 +854,21 @@ main {
  * skills 
  */
 
+.skill { margin-bottom: 30px; }
+
+
 .skills-title { margin-bottom: 20px; }
 
 .skills-list { padding: 20px; }
 
 
 .skills-item:not(:last-child) { margin-bottom: 15px; }
+
+.skills-item span {
+  color: var(--vegas-gold);
+  font-weight: var(--fw-400);
+  line-height: 1.6;
+}
 
 .skill .title-wrapper {
   display: flex;

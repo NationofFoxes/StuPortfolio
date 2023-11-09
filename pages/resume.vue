@@ -51,7 +51,7 @@
 
       <div class="title-wrapper">
         <div class="icon-box">
-          <ion-icon name="book-outline"></ion-icon>
+          <ion-icon name="business-outline"></ion-icon>
         </div>
 
         <h3 class="h3">Experience</h3>
@@ -137,12 +137,8 @@
         <li class="skills-item">
 
           <div class="title-wrapper">
-            <h5 class="h5">Python</h5>
-            <data value="80">80%</data>
-          </div>
-
-          <div class="skill-progress-bg">
-            <div class="skill-progress-fill" style="width: 80%;"></div>
+            <h5 class="h5">Python: </h5>
+            <span>Proficient - 3 years experience</span>
           </div>
 
         </li>
@@ -150,12 +146,8 @@
         <li class="skills-item">
 
           <div class="title-wrapper">
-            <h5 class="h5">Java</h5>
-            <data value="70">70%</data>
-          </div>
-
-          <div class="skill-progress-bg">
-            <div class="skill-progress-fill" style="width: 70%;"></div>
+            <h5 class="h5">Java: </h5>
+            <span>Experienced - 2 years experience</span>
           </div>
 
         </li>
@@ -163,12 +155,8 @@
         <li class="skills-item">
 
           <div class="title-wrapper">
-            <h5 class="h5">JavaScript</h5>
-            <data value="90">90%</data>
-          </div>
-
-          <div class="skill-progress-bg">
-            <div class="skill-progress-fill" style="width: 90%;"></div>
+            <h5 class="h5">JavaScript: </h5>
+            <span>Experienced - 2 years experience</span>
           </div>
 
         </li>
@@ -176,12 +164,8 @@
         <li class="skills-item">
 
           <div class="title-wrapper">
-            <h5 class="h5">Japanese Language</h5>
-            <data value="50">50%</data>
-          </div>
-
-          <div class="skill-progress-bg">
-            <div class="skill-progress-fill" style="width: 50%;"></div>
+            <h5 class="h5">HTML & CSS: </h5>
+            <span>Proficient - 3 years experience</span>
           </div>
 
         </li>
@@ -189,6 +173,28 @@
       </ul>
 
     </section>
+
+    <section class="skill">
+      <h3 class="h3 skills-title">Languages</h3>
+    </section>
+    <ul class="skills-list content-card">
+      <li class="skills-item">
+
+        <div class="title-wrapper">
+          <h5 class="h5">English: </h5>
+          <span>Native</span>
+        </div>
+      </li>
+
+
+      <li class="skills-item">
+        <div class="title-wrapper">
+          <h5 class="h5">Japanese: </h5>
+          <span>Conversational</span>
+        </div>
+      </li>
+
+    </ul>
 
   </article>
 

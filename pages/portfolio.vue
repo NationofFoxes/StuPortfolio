@@ -9,7 +9,7 @@
 
   <ul class="project-list">
 
-    <li class="project-item  active" data-filter-item data-category="web development">
+    <li class="project-item  active" >
       <a href="#">
 
         <figure class="project-img">
@@ -27,7 +27,7 @@
       </a>
     </li>
 
-    <li class="project-item  active" data-filter-item data-category="web development">
+    <li class="project-item  active">
       <a href="#">
 
         <figure class="project-img">
@@ -50,7 +50,7 @@
           <img src="~/assets/images/SlingShot.gif" alt="SlingShot Gameplay" loading="lazy">
         </figure>
 
-        <h3 class="project-title">SlingShot</h3>
+        <h3 class="project-title"><a href="https://github.com/NationofFoxes/Slingshot" target="_blank">SlingShot</a></h3>
 
         <p class="project-category">Game (Unity Engine)</p>
 
